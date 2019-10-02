@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "test",
+  "version": "0.0.0",
+  "author": "Marihachi",
+  "license": "MIT",
+  "scripts": {
+    "_copy-static": "cpx src/client/static/** dist",
+    "build": "npm run _copy-static && webpack --mode production",
+    "build-dev": "npm run _copy-static && webpack --mode development",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.2.1",
+    "cpx": "1.5.x",
+    "css-loader": "3.2.x",
+    "express": "4.17.x",
+    "fibers": "^3.1.1",
+    "node-sass": "4.12.x",
+    "sass": "1.22.x",
+    "sass-loader": "8.0.x",
+    "vue": "2.6.x",
+    "vue-loader": "15.7.x",
+    "vue-style-loader": "4.1.x",
+    "vue-template-compiler": "2.6.x",
+    "webpack": "4.40.x",
+    "webpack-cli": "3.3.x"
+  }
+}
