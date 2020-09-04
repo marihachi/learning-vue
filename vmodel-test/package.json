@@ -19,7 +19,7 @@
     "css-loader": "3.2.x",
     "express": "4.17.x",
     "fibers": "^3.1.1",
-    "node-sass": "4.12.x",
+    "node-sass": "4.14.x",
     "sass": "1.22.x",
     "sass-loader": "8.0.x",
     "vue": "2.6.x",
